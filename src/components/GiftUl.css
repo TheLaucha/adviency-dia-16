@@ -1,0 +1,19 @@
+ul {
+  list-style: none;
+  margin-bottom: 0.7rem;
+}
+
+.borrarTodo {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  background-color: #d60e0a;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.borrarTodo:hover {
+  background-color: #f3201d;
+}

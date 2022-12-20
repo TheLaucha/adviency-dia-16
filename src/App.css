@@ -1,38 +1,75 @@
+.AppContainer {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+}
+
 .App {
+  width: 500px;
+  height: auto;
   text-align: center;
+  background-color: #efefef;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App .header-app {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App h1 {
+  color: #242424;
+  text-align: justify;
+  margin-bottom: 0.7rem;
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.agregarRegalo {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  background-color: #447722;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 0.7rem;
+  margin-left: 2rem;
+}
+
+.agregarRegalo:hover {
+  background-color: #69d421;
+}
+
+.App .msgNoHayRegalos {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .AppContainer {
+    width: 768px;
   }
-  to {
-    transform: rotate(360deg);
+  .App {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .AppContainer {
+    width: 500px;
+  }
+
+  .App {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .AppContainer {
+    width: 420px;
   }
 }

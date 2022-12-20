@@ -1,0 +1,73 @@
+.item {
+  color: #efefef;
+  background-color: #4971a6;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+li img {
+  width: 100%;
+}
+
+figure {
+  width: 2rem;
+}
+
+figcaption {
+  font-size: 0.5rem;
+  font-weight: 500;
+}
+
+.imageDiv button {
+  cursor: pointer;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  border: none;
+}
+
+.imageDiv button img:hover {
+  transition: all 0.2s;
+  transform: scale(1.1);
+}
+
+.dataContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.dataContainer .giftName {
+  line-height: 0.7rem;
+}
+
+.dataContainer .giftName span {
+  color: #d1d1d1;
+  font-size: 0.5rem;
+  font-weight: 500;
+}
+
+.amountX {
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.iconContainer figure {
+  margin-left: 1rem;
+}

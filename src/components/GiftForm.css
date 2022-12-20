@@ -1,0 +1,53 @@
+.Form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.Form input,
+.Form button {
+  border-radius: 0.3rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+.Form input {
+  color: #242424;
+  background-color: #f29f05;
+  font-weight: 500;
+}
+
+.agregarBtn,
+.cancelarBtn {
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+  width: 100%;
+}
+
+.agregarBtn {
+  background-color: #447722;
+}
+
+.cancelarBtn {
+  background-color: #d60e0a;
+}
+
+.agregarBtn:hover {
+  background-color: #69d421;
+}
+
+.cancelarBtn:hover {
+  background-color: #f3201d;
+}
+
+@media screen and (max-width: 768px) {
+  .Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
